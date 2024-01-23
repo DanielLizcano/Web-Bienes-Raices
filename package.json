@@ -1,0 +1,29 @@
+{
+  "name": "web-bienes-raices",
+  "version": "1.0.0",
+  "description": "BootCampNode Proyecto1",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts",
+    "local": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielLizcano/Web-Bienes-Raices.git"
+  },
+  "author": "Jesús Daniel Lizcano Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielLizcano/Web-Bienes-Raices/issues"
+  },
+  "homepage": "https://github.com/DanielLizcano/Web-Bienes-Raices#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.0.3"
+  }
+}
